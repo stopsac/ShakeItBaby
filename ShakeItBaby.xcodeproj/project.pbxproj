@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404CF0DE1CFFB6F8001698FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404CF0DD1CFFB6F8001698FB /* AppDelegate.swift */; };
+		404CF0E01CFFB6F8001698FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404CF0DF1CFFB6F8001698FB /* ViewController.swift */; };
+		404CF0E31CFFB6F8001698FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0E11CFFB6F8001698FB /* Main.storyboard */; };
+		404CF0E51CFFB6F8001698FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0E41CFFB6F8001698FB /* Assets.xcassets */; };
+		404CF0E81CFFB6F8001698FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0E61CFFB6F8001698FB /* LaunchScreen.storyboard */; };
+		404CF0F31CFFB89E001698FB /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F01CFFB89E001698FB /* bean.mp3 */; };
+		404CF0F41CFFB89E001698FB /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F11CFFB89E001698FB /* belch.mp3 */; };
+		404CF0F51CFFB89E001698FB /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F21CFFB89E001698FB /* giggle.mp3 */; };
+		404CF0FB1CFFB8AA001698FB /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F61CFFB8AA001698FB /* pew.mp3 */; };
+		404CF0FC1CFFB8AA001698FB /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F71CFFB8AA001698FB /* pig.mp3 */; };
+		404CF0FD1CFFB8AA001698FB /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F81CFFB8AA001698FB /* snore.mp3 */; };
+		404CF0FE1CFFB8AA001698FB /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0F91CFFB8AA001698FB /* static.mp3 */; };
+		404CF0FF1CFFB8AA001698FB /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 404CF0FA1CFFB8AA001698FB /* uuu.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404CF0DA1CFFB6F8001698FB /* ShakeItBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeItBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		404CF0DD1CFFB6F8001698FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		404CF0DF1CFFB6F8001698FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		404CF0E21CFFB6F8001698FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		404CF0E41CFFB6F8001698FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		404CF0E71CFFB6F8001698FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404CF0E91CFFB6F9001698FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404CF0F01CFFB89E001698FB /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		404CF0F11CFFB89E001698FB /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		404CF0F21CFFB89E001698FB /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		404CF0F61CFFB8AA001698FB /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		404CF0F71CFFB8AA001698FB /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		404CF0F81CFFB8AA001698FB /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		404CF0F91CFFB8AA001698FB /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		404CF0FA1CFFB8AA001698FB /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404CF0D71CFFB6F8001698FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404CF0D11CFFB6F8001698FB = {
+			isa = PBXGroup;
+			children = (
+				404CF0DC1CFFB6F8001698FB /* ShakeItBaby */,
+				404CF0DB1CFFB6F8001698FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		404CF0DB1CFFB6F8001698FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404CF0DA1CFFB6F8001698FB /* ShakeItBaby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		404CF0DC1CFFB6F8001698FB /* ShakeItBaby */ = {
+			isa = PBXGroup;
+			children = (
+				404CF0EF1CFFB88E001698FB /* Resources */,
+				404CF0DD1CFFB6F8001698FB /* AppDelegate.swift */,
+				404CF0DF1CFFB6F8001698FB /* ViewController.swift */,
+				404CF0E11CFFB6F8001698FB /* Main.storyboard */,
+				404CF0E41CFFB6F8001698FB /* Assets.xcassets */,
+				404CF0E61CFFB6F8001698FB /* LaunchScreen.storyboard */,
+				404CF0E91CFFB6F9001698FB /* Info.plist */,
+			);
+			path = ShakeItBaby;
+			sourceTree = "<group>";
+		};
+		404CF0EF1CFFB88E001698FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				404CF0F01CFFB89E001698FB /* bean.mp3 */,
+				404CF0F11CFFB89E001698FB /* belch.mp3 */,
+				404CF0F21CFFB89E001698FB /* giggle.mp3 */,
+				404CF0F61CFFB8AA001698FB /* pew.mp3 */,
+				404CF0F71CFFB8AA001698FB /* pig.mp3 */,
+				404CF0F81CFFB8AA001698FB /* snore.mp3 */,
+				404CF0F91CFFB8AA001698FB /* static.mp3 */,
+				404CF0FA1CFFB8AA001698FB /* uuu.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		404CF0D91CFFB6F8001698FB /* ShakeItBaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404CF0EC1CFFB6F9001698FB /* Build configuration list for PBXNativeTarget "ShakeItBaby" */;
+			buildPhases = (
+				404CF0D61CFFB6F8001698FB /* Sources */,
+				404CF0D71CFFB6F8001698FB /* Frameworks */,
+				404CF0D81CFFB6F8001698FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeItBaby;
+			productName = ShakeItBaby;
+			productReference = 404CF0DA1CFFB6F8001698FB /* ShakeItBaby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		404CF0D21CFFB6F8001698FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Engene;
+				TargetAttributes = {
+					404CF0D91CFFB6F8001698FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8XAJ796C7E;
+					};
+				};
+			};
+			buildConfigurationList = 404CF0D51CFFB6F8001698FB /* Build configuration list for PBXProject "ShakeItBaby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 404CF0D11CFFB6F8001698FB;
+			productRefGroup = 404CF0DB1CFFB6F8001698FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404CF0D91CFFB6F8001698FB /* ShakeItBaby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		404CF0D81CFFB6F8001698FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404CF0F31CFFB89E001698FB /* bean.mp3 in Resources */,
+				404CF0FD1CFFB8AA001698FB /* snore.mp3 in Resources */,
+				404CF0F51CFFB89E001698FB /* giggle.mp3 in Resources */,
+				404CF0FF1CFFB8AA001698FB /* uuu.mp3 in Resources */,
+				404CF0F41CFFB89E001698FB /* belch.mp3 in Resources */,
+				404CF0FE1CFFB8AA001698FB /* static.mp3 in Resources */,
+				404CF0E81CFFB6F8001698FB /* LaunchScreen.storyboard in Resources */,
+				404CF0E51CFFB6F8001698FB /* Assets.xcassets in Resources */,
+				404CF0FC1CFFB8AA001698FB /* pig.mp3 in Resources */,
+				404CF0E31CFFB6F8001698FB /* Main.storyboard in Resources */,
+				404CF0FB1CFFB8AA001698FB /* pew.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404CF0D61CFFB6F8001698FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404CF0E01CFFB6F8001698FB /* ViewController.swift in Sources */,
+				404CF0DE1CFFB6F8001698FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		404CF0E11CFFB6F8001698FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404CF0E21CFFB6F8001698FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		404CF0E61CFFB6F8001698FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404CF0E71CFFB6F8001698FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404CF0EA1CFFB6F9001698FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		404CF0EB1CFFB6F9001698FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404CF0ED1CFFB6F9001698FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeItBaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.engene.ShakeItBaby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		404CF0EE1CFFB6F9001698FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeItBaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.engene.ShakeItBaby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		404CF0D51CFFB6F8001698FB /* Build configuration list for PBXProject "ShakeItBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404CF0EA1CFFB6F9001698FB /* Debug */,
+				404CF0EB1CFFB6F9001698FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404CF0EC1CFFB6F9001698FB /* Build configuration list for PBXNativeTarget "ShakeItBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404CF0ED1CFFB6F9001698FB /* Debug */,
+				404CF0EE1CFFB6F9001698FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 404CF0D21CFFB6F8001698FB /* Project object */;
+}
